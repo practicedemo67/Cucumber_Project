@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="90.596146">
+<testcase classname="Freecrm contact features" name="Contact page functionality check" time="60.298402">
+<system-out><![CDATA[Given open browser and navigate to login page...............................passed
+When i use valid "practicedemo67@gmail.com" and "Demo@678"..................passed
+Then login to application successfully......................................passed
+Then customer is in homepage of FreeCRM.....................................passed
+When Customer clicks on deal option.........................................passed
+Then customer navigate to deal page.........................................passed
+Then customer clicks on New button..........................................passed
+Then customer enters "project1","new project1 crated" and "20"..............passed
+Then customer clicks on save button.........................................passed
+Then verify deal is created.................................................passed
+Then user close the browser.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Freecrm contact features" name="Contact page functionality check 2" time="30.297744">
+<system-out><![CDATA[Given open browser and navigate to login page...............................passed
+When i use valid "practicedemo67@gmail.com" and "Demo@678"..................passed
+Then login to application successfully......................................passed
+Then customer is in homepage of FreeCRM.....................................passed
+When Customer clicks on deal option.........................................passed
+Then customer navigate to deal page.........................................passed
+Then customer clicks on New button..........................................passed
+Then customer enters "project2","new project2 crated" and "30"..............passed
+Then customer clicks on save button.........................................passed
+Then verify deal is created.................................................passed
+Then user close the browser.................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
